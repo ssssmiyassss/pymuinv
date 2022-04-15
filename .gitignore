@@ -1,3 +1,8 @@
+# miyamoto added
+*.png
+*.jpg
+*.gif
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
