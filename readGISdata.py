@@ -20,5 +20,4 @@ df_world.head()
 
 base = df_world.plot(color='white', edgecolor='black')
 df_cities.plot(ax=base, marker='o', color='red', markersize=5)
-# image = df_cities.get_figure()
-# image.savefig('img001.png')
+plt.savefig('test001.png')
