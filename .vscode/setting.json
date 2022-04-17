@@ -1,0 +1,20 @@
+{
+  "python.autoComplete.extraPaths": [
+    "/home/miyamoto/anaconda3/envs/pymuinv/include/",
+    "/home/miyamoto/anaconda3/envs/pymuinv/lib/",
+    "/home/miyamoto/anaconda3/envs/pymuinv/lib/python3.8/",
+    "/home/miyamoto/anaconda3/envs/pymuinv/lib/python3.8/site-packages/"
+  ],
+  "python.pythonPath": "python",
+  "python.jediEnabled": false,
+  "python.linting.flake8Enabled": true,
+  "editor.formatOnSave": true,
+  "python.autoComplete.addBrackets": true,
+  "python.linting.flake8Args": [
+      "--ignore=E501"
+  ],
+  "editor.fontSize": 14,
+  "python.analysis.symbolsHierarchyDepthLimit": 20,
+  "python.condaPath": "/home/miyamoto/anaconda3/bin/conda",
+  "terminal.integrated.rendererType": "dom"
+}

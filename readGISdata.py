@@ -5,8 +5,8 @@ import geopandas as gpd
 import matplotlib.pyplot as plt
 
 # データの取得
-world = gpd.datasets.get_path('naturalearth_lowres')      #世界地図
-cities = gpd.datasets.get_path('naturalearth_cities')         #都市
+world = gpd.datasets.get_path('naturalearth_lowres')      # type: ignore #世界地図
+cities = gpd.datasets.get_path('naturalearth_cities')         # type: ignore #都市
 
 # データの読み込み
 df_world = gpd.read_file(world)
